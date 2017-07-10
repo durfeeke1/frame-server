@@ -7,9 +7,9 @@ function requestPicture (pic) {
 
   request.addEventListener('load', function(){
     if(request.status === STATUS_OK){
-      
+      console.log("SUCCESS");   
     }else{
-    
+      console.log("FAIL");
     }
     
   });
